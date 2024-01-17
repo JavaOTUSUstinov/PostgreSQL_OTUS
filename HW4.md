@@ -16,6 +16,7 @@ Postgres
 select current_role; 
 ```
 postgres
+
 3. создайте новую базу данных testdb
 ```bash
 CREATE DATABASE testdb;
