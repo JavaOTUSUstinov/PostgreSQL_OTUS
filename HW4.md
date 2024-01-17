@@ -59,6 +59,7 @@ grant usage on SCHEMA testnm to readonly;
 grant SELECT on all TABLEs in SCHEMA testnm TO readonly;
 ```
 12. создайте пользователя testread с паролем testread
+```bash
 CREATE USER testread with password 'testread';
 ```
 13. дайте роль readonly пользователю testread
