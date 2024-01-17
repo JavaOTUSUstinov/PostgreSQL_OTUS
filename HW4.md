@@ -103,6 +103,7 @@ select * from testnm.t1;
 успешно
 37. теперь попробуйте выполнить команду create table t2(c1 integer); insert into t2 values (2);
 успешно, видимо при создании схемы ей выдаются некие дефолтные гранты
+
 забираем права:
 ```bash
 REVOKE CREATE on SCHEMA public FROM public; 
