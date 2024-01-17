@@ -114,4 +114,5 @@ REVOKE ALL on DATABASE testdb FROM public;
 create table t3(c1 integer); insert into t2 values (2);
 ```
 SQL Error [42501]: ОШИБКА: нет доступа к схеме public
+
 забрали гранты на создание объектов в public
